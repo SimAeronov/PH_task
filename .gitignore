@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+image_test.jpg
+parcel_hive_data.db
