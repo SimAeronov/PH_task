@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7de2cd9-6093-41ec-a3e9-7d00fc9305b9" name="Changes" comment="" />
+    <list default="true" id="c7de2cd9-6093-41ec-a3e9-7d00fc9305b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_modules/PHtask_mouse_screen_coords.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_modules/PHtask_mouse_screen_coords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_modules/PHtask_openCV.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_modules/PHtask_openCV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/websocket_client.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/websocket_client.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2HJFvGoVU40sRSFWtmcKCwpLUfr" />
   <component name="ProjectViewState">

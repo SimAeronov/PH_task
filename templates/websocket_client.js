@@ -1,6 +1,5 @@
-// Wait for my client to load page
-document.addEventListener("DOMContentLoaded", function(){
-    // Establich new websocket connection
+function create_connection_handler () {
+    // Establish new websocket connection
     const websocketClient = new WebSocket("ws://localhost:12345/");
     // Get tag by id = message_container
     const messagesContainer = document.querySelector("#message_container");
@@ -13,5 +12,7 @@ document.addEventListener("DOMContentLoaded", function(){
         messagesContainer.textContent  = message.data;
     };
 
-}, false);
+}
 
+// Wait for my client to load page
+document.addEventListener("DOMContentLoaded", create_connection_handler , false);

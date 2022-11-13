@@ -29,6 +29,7 @@ class MouseListener:
             on_click=self.on_click)
         self.listener.start()
 
+
     @classmethod
     def stop_listening(cls):
         cls.listener.stop()
