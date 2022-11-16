@@ -29,7 +29,12 @@ class MouseListener:
             on_click=self.on_click)
         self.listener.start()
 
+    def reset_listening(self):
+        self.coord_X = 0
+        self.coord_Y = 0
+        self.cv_photo = False
 
     @classmethod
     def stop_listening(cls):
         cls.listener.stop()
+

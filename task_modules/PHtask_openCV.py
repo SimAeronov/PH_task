@@ -11,8 +11,9 @@ async def take_webcam_picture():
 
     # Set captured_image=0 so that if there is an error with the image capturing, return value will be 0
     captured_image = 0
+    # Find a way to get a list of available webcams and replace [cam index=0] with a variable. For win/linux
     my_web_camera = cv2.VideoCapture(0, cv2.CAP_DSHOW)
-    # If the camera is currently being used, it won't oppen
+    # If the camera is currently being used, it won't open
     if my_web_camera.isOpened():
         # Camera needs some time to adjust
         await asyncio.sleep(0.5)
